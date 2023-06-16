@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+h1{
+  font-family: Impact;
+  letter-spacing: 0px;
+  word-spacing: 10px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+.reports-section{
+  position: relative;
+  margin-left: 1rem;
+  display: flex;
+  background-color: tomato;
+  color: black;
+  font-weight: bold;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-underline-position: none;
+  color: black;
+}
+nav ul li button{
+  /* box-shadow: 3px 4px 0px 0px #899599; */
+	background-color:#cdcdcd;
+	border-radius:15px;
+	border:1px solid #050005;
+	display:inline-block;
+	cursor:pointer;
+  font-weight: bold;
+	color:#050f12;
+  text-decoration: none;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #e1e2ed; */
+}
+button:active{
+  text-decoration: none;
+  position:relative;
+	top:1px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
