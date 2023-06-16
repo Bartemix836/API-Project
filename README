@@ -1,1 +1,14 @@
+ESM - Employee Management System jest to platforma bazująca na operacjach CRUD (CREATE, READ, UPDATE,DELETE) pozwalająca na zarządzanie pracownikami w dziale produkcyjnym. 
+
+Jeśli chodzi o same uruchomienie projektu to zalecane jest wykonanie następujących czynności w określej kolejności: 
+
+1.Ustawienie odpowiednich numerów portów jak poniżej: 
+      MySQL -> 8889
+      Apache Port: 8888
+2.Import lokalnej bazy danych z plik database.sql znajdującej się na branchu backend
+3.Utworzenie katalogu api1 w folderze htdocs.
+4.Do foledru api1 dodanie plików .htaacess, DbConnect.php, index.php z brancha backend
+5.Otworzenie katalogu crud za pomocą odpowiedniego programu np. Visual Studio Code.
+6.W terminalu uruchomieniu kodu za pomocą komendy npm run start
+
 
