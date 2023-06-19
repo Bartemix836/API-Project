@@ -50,7 +50,7 @@ export default function ListUser() {
 
           <table cellSpacing='10'>
             <tbody>
-              
+           
               <tr>
                 <th>
                   <label>Name</label>
@@ -75,14 +75,14 @@ export default function ListUser() {
                 <input value={inputs.shift} type="text" name='shift' onChange={handleChange}/>
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <th>
                   <label>Group Number</label>
                 </th>
                 <td>
                 <input value={inputs.group_number} type="text" name='group_n' onChange={handleChange}/>
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td colSpan="2" align='right'>
                   <button className='btn-save'>Save</button>

@@ -53,14 +53,14 @@ export default function ListUser() {
                   <input type="text" name='shift' onChange={handleChange}/>
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <th>
                   <label>Group Number</label>
                 </th>
                 <td>
                   <input type="text" name='group_n' onChange={handleChange}/>
                 </td>
-              </tr>
+              </tr> */}
               <tr>
                 <td colSpan="2" align='right'>
                   <button className='btn-save'>Save</button>

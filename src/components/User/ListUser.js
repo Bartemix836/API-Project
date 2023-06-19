@@ -26,7 +26,7 @@ export default function ListUser() {
   return (
     <div>
       
-      {/* <h3>Employees List</h3> */}
+      <h3>19.06.2023- 25.06.2023</h3>
       <table>
         <thead className='columns'>
           <tr>          
@@ -34,7 +34,7 @@ export default function ListUser() {
                 <th>Name</th>
                 <th>Surname</th>
                 <th>Shift</th>
-                <th>Group Number</th>
+                {/* <th>Group Number</th> */}
                 <th>Created Data</th>
                 <th>Update Data</th>
                 <th>Actions</th>         
@@ -47,7 +47,7 @@ export default function ListUser() {
                 <td>{employee.name}</td>
                 <td>{employee.surname}</td>
                 <td>{employee.shift}</td>
-                <td>{employee.group_number}</td>
+                {/* <td>{employee.group_number}</td> */}
                 <td>{employee.create_at.slice(0,10)}</td>
                 <td>{employee.update_at.slice(0,10)}</td>
                 
